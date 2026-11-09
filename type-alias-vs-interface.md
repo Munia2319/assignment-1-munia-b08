@@ -389,10 +389,4 @@ interface Order {
 
 ## 3. Conclusion
 
-The main difference between `interface` and `type` is that both can define object structures, but `type` supports additional features such as union types, tuples, primitive aliases, and more complex type combinations. On the other hand, `interface` supports declaration merging and provides a convenient way to extend object structures.
-
-Neither `interface` nor `type` is universally better than the other. Both are useful, and the choice often depends on personal preference and the requirements of the project.
-
-**Practical Rule of Thumb:** Start with `interface` when defining object structures. Use `type` when you need features that `interface` does not support, such as union types or tuples. TypeScript will also tell you if a particular feature requires one kind of declaration over the other.
-
-In real-world development, both `type` and `interface` are useful. The goal is not to choose one over the other, but to use the right tool for the situation.
+The main difference between `interface` and `type` is that both can define object structures, but `type` supports additional features such as union types, tuples, primitive aliases, and more complex type combinations. On the other hand, `interface` supports declaration merging and provides a convenient way to extend object structures. Neither `interface` nor `type` is universally better than the other. Both are useful, and the choice often depends on personal preference and the project's requirements. So the thumb rule is to start with `interface` when defining object structures. Use `type` when you need features that `interface` does not support, such as union types or tuples. TypeScript will also tell you if a particular feature requires one kind of declaration over the other. In real-world development, both `type` and `interface` are useful. The goal is not to choose one over the other, but to use the right tool for the situation.
