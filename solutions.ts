@@ -65,15 +65,6 @@ function getPopularCourses(courses:Course[],minStudents:number):Course[] {
 }
 
 
-
-interface user{
-    id:number;
-    name:string;
-    role:string;
-}
-
-
-
 function pluckValues<T, K extends keyof T>(items: T[], key: K): T[K][] {
     return items.map((item) => item[key]);
 }
